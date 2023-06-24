@@ -1,4 +1,5 @@
-﻿int day = int.Parse(Console.ReadLine());
+﻿Console.Write("Введите день недели: ");
+int day = int.Parse(Console.ReadLine());
 if ((day >=1) &&  (day <= 7))
 {
     if (day == 1)
